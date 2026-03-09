@@ -352,7 +352,7 @@ For batch renaming with regex patterns, use rename_network_batch instead.""",
 Uses regex (not glob) patterns for find/replace on filenames.
 
 Examples:
-- Pattern: "(.*)\.txt$", Replacement: "\\1.bak" - rename .txt to .bak
+- Pattern: "(.*)\\.txt$", Replacement: "\\1.bak" - rename .txt to .bak
 - Pattern: "^old_", Replacement: "new_" - replace prefix
 - Pattern: "([0-9]+)_(.+)", Replacement: "\\2_\\1" - swap number and name""",
                     inputSchema={
